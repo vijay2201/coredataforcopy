@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E03692623D99396009ED71D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E03692523D99396009ED71D /* LoginViewController.swift */; };
+		8E03692823D993A5009ED71D /* SIgnupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E03692723D993A5009ED71D /* SIgnupViewController.swift */; };
 		8EDACC2323D9866D006A52F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDACC2223D9866D006A52F8 /* AppDelegate.swift */; };
 		8EDACC2523D9866D006A52F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDACC2423D9866D006A52F8 /* ViewController.swift */; };
 		8EDACC2823D9866E006A52F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EDACC2623D9866E006A52F8 /* Main.storyboard */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8E03692523D99396009ED71D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		8E03692723D993A5009ED71D /* SIgnupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SIgnupViewController.swift; sourceTree = "<group>"; };
 		8EDACC1F23D9866C006A52F8 /* My CoreData Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My CoreData Practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EDACC2223D9866D006A52F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8EDACC2423D9866D006A52F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 				8EDACC2E23D9866E006A52F8 /* LaunchScreen.storyboard */,
 				8EDACC3123D9866E006A52F8 /* Info.plist */,
 				8EDACC2923D9866E006A52F8 /* My_CoreData_Practice.xcdatamodeld */,
+				8E03692523D99396009ED71D /* LoginViewController.swift */,
+				8E03692723D993A5009ED71D /* SIgnupViewController.swift */,
 			);
 			path = "My CoreData Practice";
 			sourceTree = "<group>";
@@ -139,9 +145,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E03692623D99396009ED71D /* LoginViewController.swift in Sources */,
 				8EDACC2B23D9866E006A52F8 /* My_CoreData_Practice.xcdatamodeld in Sources */,
 				8EDACC2523D9866D006A52F8 /* ViewController.swift in Sources */,
 				8EDACC2323D9866D006A52F8 /* AppDelegate.swift in Sources */,
+				8E03692823D993A5009ED71D /* SIgnupViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
